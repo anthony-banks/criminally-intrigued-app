@@ -1,0 +1,1383 @@
+{
+  "generatedAt": "2026-06-24",
+  "_note": "Bundled first-launch snapshot (spec §6.4). [VERIFY] and curate before shipping. Summaries are intentionally null — fetched live on first open to avoid reproducing text in the bundle. Victim counts are left null where contested/ambiguous so filters degrade gracefully rather than asserting a disputed number.",
+  "entries": [
+    {
+      "id": "enwiki:Ted_Bundy",
+      "title": "Ted Bundy",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Ted_Bundy",
+      "victimCount": 30,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1989-01-24"
+    },
+    {
+      "id": "enwiki:Jeffrey_Dahmer",
+      "title": "Jeffrey Dahmer",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Jeffrey_Dahmer",
+      "victimCount": 17,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1994-11-28"
+    },
+    {
+      "id": "enwiki:John_Wayne_Gacy",
+      "title": "John Wayne Gacy",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/John_Wayne_Gacy",
+      "victimCount": 33,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1994-05-10"
+    },
+    {
+      "id": "enwiki:Aileen_Wuornos",
+      "title": "Aileen Wuornos",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Aileen_Wuornos",
+      "victimCount": 7,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2002-10-09"
+    },
+    {
+      "id": "enwiki:Harold_Shipman",
+      "title": "Harold Shipman",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Harold_Shipman",
+      "victimCount": 218,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "2004-01-13"
+    },
+    {
+      "id": "enwiki:Andrei_Chikatilo",
+      "title": "Andrei Chikatilo",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Andrei_Chikatilo",
+      "victimCount": 52,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1994-02-14"
+    },
+    {
+      "id": "enwiki:Richard_Ramirez",
+      "title": "Richard Ramirez",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Richard_Ramirez",
+      "victimCount": 13,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2013-06-07"
+    },
+    {
+      "id": "enwiki:Dennis_Rader",
+      "title": "Dennis Rader",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Dennis_Rader",
+      "victimCount": 10,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1945-03-09"
+    },
+    {
+      "id": "enwiki:Gary_Ridgway",
+      "title": "Gary Ridgway",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Gary_Ridgway",
+      "victimCount": 49,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1949-02-18"
+    },
+    {
+      "id": "enwiki:Ed_Gein",
+      "title": "Ed Gein",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Ed_Gein",
+      "victimCount": 2,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1984-07-26"
+    },
+    {
+      "id": "enwiki:Black_Dahlia",
+      "title": "Black Dahlia",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Black_Dahlia",
+      "victimCount": 1,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1947-01-15"
+    },
+    {
+      "id": "enwiki:Killing_of_JonBenet_Ramsey",
+      "title": "Killing of JonBenét Ramsey",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Killing_of_JonBen%C3%A9t_Ramsey",
+      "victimCount": 1,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1996-12-26"
+    },
+    {
+      "id": "enwiki:Zodiac_Killer",
+      "title": "Zodiac Killer",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+      "victimCount": 5,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1968-12-20"
+    },
+    {
+      "id": "enwiki:Chicago_Tylenol_murders",
+      "title": "Chicago Tylenol Murders",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Chicago_Tylenol_murders",
+      "victimCount": 7,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1982-09-29"
+    },
+    {
+      "id": "enwiki:Hinterkaifeck_murders",
+      "title": "Hinterkaifeck Murders",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Hinterkaifeck_murders",
+      "victimCount": 6,
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "startDate": "1922-03-31"
+    },
+    {
+      "id": "enwiki:Villisca_axe_murders",
+      "title": "Villisca Axe Murders",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Villisca_axe_murders",
+      "victimCount": 8,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1912-06-10"
+    },
+    {
+      "id": "enwiki:Dyatlov_Pass_incident",
+      "title": "Dyatlov Pass Incident",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1959-02-02"
+    },
+    {
+      "id": "enwiki:D._B._Cooper",
+      "title": "D. B. Cooper",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/D._B._Cooper",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1971-11-24"
+    },
+    {
+      "id": "enwiki:Tamam_Shud_case",
+      "title": "Tamam Shud Case",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Tamam_Shud_case",
+      "victimCount": 1,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "1948-12-01"
+    },
+    {
+      "id": "enwiki:Mary_Celeste",
+      "title": "Mary Celeste",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Mary_Celeste",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1872-12-05"
+    },
+    {
+      "id": "enwiki:Max_Headroom_signal_hijacking",
+      "title": "Max Headroom Signal Hijacking",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Max_Headroom_signal_hijacking",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1987-11-22"
+    },
+    {
+      "id": "enwiki:Voynich_manuscript",
+      "title": "Voynich Manuscript",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Voynich_manuscript",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "startDate": "1404-01-01"
+    },
+    {
+      "id": "enwiki:Albert_Fish",
+      "title": "Albert Fish",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Albert_Fish",
+      "victimCount": 3,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1936-01-16"
+    },
+    {
+      "id": "enwiki:H._H._Holmes",
+      "title": "H. H. Holmes",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/H._H._Holmes",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1896-05-07"
+    },
+    {
+      "id": "enwiki:Peter_Sutcliffe",
+      "title": "Peter Sutcliffe",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Peter_Sutcliffe",
+      "victimCount": 13,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "2020-11-13"
+    },
+    {
+      "id": "enwiki:Dennis_Nilsen",
+      "title": "Dennis Nilsen",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Dennis_Nilsen",
+      "victimCount": 12,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "2018-05-12"
+    },
+    {
+      "id": "enwiki:Fred_West",
+      "title": "Fred West",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Fred_West",
+      "victimCount": 12,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1995-01-01"
+    },
+    {
+      "id": "enwiki:Rose_West",
+      "title": "Rose West",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Rose_West",
+      "victimCount": 10,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1953-11-29"
+    },
+    {
+      "id": "enwiki:David_Berkowitz",
+      "title": "David Berkowitz",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/David_Berkowitz",
+      "victimCount": 6,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1953-06-01"
+    },
+    {
+      "id": "enwiki:Edmund_Kemper",
+      "title": "Edmund Kemper",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Edmund_Kemper",
+      "victimCount": 10,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1948-12-18"
+    },
+    {
+      "id": "enwiki:Joachim_Kroll",
+      "title": "Joachim Kroll",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Joachim_Kroll",
+      "victimCount": 8,
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "startDate": "1991-07-01"
+    },
+    {
+      "id": "enwiki:Yang_Xinhai",
+      "title": "Yang Xinhai",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Yang_Xinhai",
+      "victimCount": 67,
+      "countryCode": "CN",
+      "countryName": "China",
+      "startDate": "2004-02-14"
+    },
+    {
+      "id": "enwiki:Anatoly_Onoprienko",
+      "title": "Anatoly Onoprienko",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Anatoly_Onoprienko",
+      "victimCount": 52,
+      "countryCode": "UA",
+      "countryName": "Ukraine",
+      "startDate": "2013-08-27"
+    },
+    {
+      "id": "enwiki:Tsutomu_Miyazaki",
+      "title": "Tsutomu Miyazaki",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Tsutomu_Miyazaki",
+      "victimCount": 4,
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "startDate": "2008-06-17"
+    },
+    {
+      "id": "enwiki:Luis_Garavito",
+      "title": "Luis Garavito",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Luis_Garavito",
+      "countryCode": "CO",
+      "countryName": "Colombia",
+      "startDate": "2023-10-12"
+    },
+    {
+      "id": "enwiki:Samuel_Little",
+      "title": "Samuel Little",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Samuel_Little",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2020-12-30"
+    },
+    {
+      "id": "enwiki:Belle_Gunness",
+      "title": "Belle Gunness",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Belle_Gunness",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1908-04-28"
+    },
+    {
+      "id": "enwiki:Jack_the_Ripper",
+      "title": "Jack the Ripper",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+      "victimCount": 5,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1888-08-31"
+    },
+    {
+      "id": "enwiki:Axeman_of_New_Orleans",
+      "title": "Axeman of New Orleans",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Axeman_of_New_Orleans",
+      "victimCount": 6,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1918-05-22"
+    },
+    {
+      "id": "enwiki:Cleveland_Torso_Murderer",
+      "title": "Cleveland Torso Murderer",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1935-09-23"
+    },
+    {
+      "id": "enwiki:Monster_of_Florence",
+      "title": "Monster of Florence",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Monster_of_Florence",
+      "victimCount": 16,
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "startDate": "1968-08-21"
+    },
+    {
+      "id": "enwiki:Keddie_murders",
+      "title": "Keddie murders",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Keddie_murders",
+      "victimCount": 4,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1981-04-11"
+    },
+    {
+      "id": "enwiki:Setagaya_family_murder",
+      "title": "Setagaya family murder",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Setagaya_family_murder",
+      "victimCount": 4,
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "startDate": "2000-12-30"
+    },
+    {
+      "id": "enwiki:Lake_Bodom_murders",
+      "title": "Lake Bodom murders",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Lake_Bodom_murders",
+      "victimCount": 3,
+      "countryCode": "FI",
+      "countryName": "Finland",
+      "startDate": "1960-06-05"
+    },
+    {
+      "id": "enwiki:Disappearance_of_Madeleine_McCann",
+      "title": "Disappearance of Madeleine McCann",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Disappearance_of_Madeleine_McCann",
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "startDate": "2007-05-03"
+    },
+    {
+      "id": "enwiki:Disappearance_of_Maura_Murray",
+      "title": "Disappearance of Maura Murray",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Disappearance_of_Maura_Murray",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2004-02-09"
+    },
+    {
+      "id": "enwiki:Disappearance_of_the_Beaumont_children",
+      "title": "Disappearance of the Beaumont children",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Disappearance_of_the_Beaumont_children",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "1966-01-26"
+    },
+    {
+      "id": "enwiki:Sodder_children_disappearance",
+      "title": "Sodder children disappearance",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Sodder_children_disappearance",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1945-12-24"
+    },
+    {
+      "id": "enwiki:Long_Island_serial_killer",
+      "title": "Long Island serial killer",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Long_Island_serial_killer",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2010-12-11"
+    },
+    {
+      "id": "enwiki:Wow!_signal",
+      "title": "Wow! signal",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Wow!_signal",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1977-08-15"
+    },
+    {
+      "id": "enwiki:Kaspar_Hauser",
+      "title": "Kaspar Hauser",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Kaspar_Hauser",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "startDate": "1828-05-26"
+    },
+    {
+      "id": "enwiki:Flannan_Isles",
+      "title": "Flannan Isles",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Flannan_Isles",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1900-12-15"
+    },
+    {
+      "id": "enwiki:Lead_masks_case",
+      "title": "Lead masks case",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Lead_masks_case",
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "startDate": "1966-08-20"
+    },
+    {
+      "id": "enwiki:Roanoke_Colony",
+      "title": "Roanoke Colony",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Roanoke_Colony",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1590-01-01"
+    },
+    {
+      "id": "enwiki:Oak_Island",
+      "title": "Oak Island",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Oak_Island",
+      "countryCode": "CA",
+      "countryName": "Canada"
+    },
+    {
+      "id": "enwiki:Beale_ciphers",
+      "title": "Beale ciphers",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Beale_ciphers",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1885-01-01"
+    },
+    {
+      "id": "enwiki:Dancing_plague_of_1518",
+      "title": "Dancing plague of 1518",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+      "countryCode": "FR",
+      "countryName": "France",
+      "startDate": "1518-07-01"
+    },
+    {
+      "id": "enwiki:Bennington_Triangle",
+      "title": "Bennington Triangle",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Bennington_Triangle",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1945-01-01"
+    },
+    {
+      "id": "enwiki:Phaistos_Disc",
+      "title": "Phaistos Disc",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Phaistos_Disc",
+      "countryCode": "GR",
+      "countryName": "Greece"
+    },
+    {
+      "id": "enwiki:The_Hum",
+      "title": "The Hum",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/The_Hum"
+    },
+    {
+      "id": "enwiki:UVB-76",
+      "title": "UVB-76",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/UVB-76",
+      "countryCode": "RU",
+      "countryName": "Russia"
+    },
+    {
+      "id": "enwiki:Thug_Behram",
+      "title": "Thug Behram",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Thug_Behram",
+      "countryCode": "IN",
+      "countryName": "India",
+      "startDate": "1840-01-01"
+    },
+    {
+      "id": "enwiki:Juana_Barraza",
+      "title": "Juana Barraza",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Juana_Barraza",
+      "victimCount": 11,
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "startDate": "1957-12-27"
+    },
+    {
+      "id": "enwiki:Moses_Sithole",
+      "title": "Moses Sithole",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Moses_Sithole",
+      "victimCount": 38,
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "startDate": "1964-11-17"
+    },
+    {
+      "id": "enwiki:Manuel_Delgado_Villegas",
+      "title": "Manuel Delgado Villegas",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Manuel_Delgado_Villegas",
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "startDate": "1998-02-05"
+    },
+    {
+      "id": "enwiki:Yoo_Young-chul",
+      "title": "Yoo Young-chul",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Yoo_Young-chul",
+      "victimCount": 20,
+      "countryCode": "KR",
+      "countryName": "South Korea",
+      "startDate": "1970-04-18"
+    },
+    {
+      "id": "enwiki:Saeed_Hanaei",
+      "title": "Saeed Hanaei",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Saeed_Hanaei",
+      "victimCount": 16,
+      "countryCode": "IR",
+      "countryName": "Iran",
+      "startDate": "2002"
+    },
+    {
+      "id": "enwiki:Javed_Iqbal_(serial_killer)",
+      "title": "Javed Iqbal (serial killer)",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Javed_Iqbal_(serial_killer)",
+      "countryCode": "PK",
+      "countryName": "Pakistan",
+      "startDate": "2001-10-09"
+    },
+    {
+      "id": "enwiki:Cayetano_Santos_Godino",
+      "title": "Cayetano Santos Godino",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Cayetano_Santos_Godino",
+      "victimCount": 4,
+      "countryCode": "AR",
+      "countryName": "Argentina",
+      "startDate": "1944-11-15"
+    },
+    {
+      "id": "enwiki:Jack_Unterweger",
+      "title": "Jack Unterweger",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Jack_Unterweger",
+      "victimCount": 9,
+      "countryCode": "AT",
+      "countryName": "Austria",
+      "startDate": "1994-06-29"
+    },
+    {
+      "id": "enwiki:John_Ausonius",
+      "title": "John Ausonius",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/John_Ausonius",
+      "victimCount": 1,
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "startDate": "1953-07-12"
+    },
+    {
+      "id": "enwiki:Béla_Kiss",
+      "title": "Béla Kiss",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/B%C3%A9la_Kiss",
+      "victimCount": 24,
+      "countryCode": "HU",
+      "countryName": "Hungary",
+      "startDate": "1916"
+    },
+    {
+      "id": "enwiki:Zdzisław_Marchwicki",
+      "title": "Zdzisław Marchwicki",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Zdzis%C5%82aw_Marchwicki",
+      "countryCode": "PL",
+      "countryName": "Poland",
+      "startDate": "1977-04-26"
+    },
+    {
+      "id": "enwiki:Raya_and_Sakina",
+      "title": "Raya and Sakina",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Raya_and_Sakina",
+      "victimCount": 17,
+      "countryCode": "EG",
+      "countryName": "Egypt",
+      "startDate": "1921-12-21"
+    },
+    {
+      "id": "enwiki:Ahmad_Suradji",
+      "title": "Ahmad Suradji",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Ahmad_Suradji",
+      "victimCount": 42,
+      "countryCode": "ID",
+      "countryName": "Indonesia",
+      "startDate": "2008-07-10"
+    },
+    {
+      "id": "enwiki:Pedro_Rodrigues_Filho",
+      "title": "Pedro Rodrigues Filho",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Pedro_Rodrigues_Filho",
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "startDate": "2023-03-05"
+    },
+    {
+      "id": "enwiki:Lee_Choon-jae",
+      "title": "Lee Choon-jae",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Lee_Choon-jae",
+      "victimCount": 10,
+      "countryCode": "KR",
+      "countryName": "South Korea",
+      "startDate": "1986-09-15"
+    },
+    {
+      "id": "enwiki:Bain_family_murders",
+      "title": "Bain family murders",
+      "category": "coldCase",
+      "articleURL": "https://en.wikipedia.org/wiki/Bain_family_murders",
+      "victimCount": 5,
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "startDate": "1994-06-20"
+    },
+    {
+      "id": "enwiki:Island_of_the_Dolls",
+      "title": "Island of the Dolls",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Island_of_the_Dolls",
+      "countryCode": "MX",
+      "countryName": "Mexico"
+    },
+    {
+      "id": "enwiki:Jatinga",
+      "title": "Jatinga",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Jatinga",
+      "countryCode": "IN",
+      "countryName": "India"
+    },
+    {
+      "id": "enwiki:Hessdalen_lights",
+      "title": "Hessdalen lights",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Hessdalen_lights",
+      "countryCode": "NO",
+      "countryName": "Norway"
+    },
+    {
+      "id": "enwiki:Naga_fireball",
+      "title": "Naga fireball",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Naga_fireball",
+      "countryCode": "TH",
+      "countryName": "Thailand"
+    },
+    {
+      "id": "enwiki:Hoia-Baciu_Forest",
+      "title": "Hoia-Baciu Forest",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Hoia-Baciu_Forest",
+      "countryCode": "RO",
+      "countryName": "Romania"
+    },
+    {
+      "id": "enwiki:Nazca_lines",
+      "title": "Nazca lines",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Nazca_lines",
+      "countryCode": "PE",
+      "countryName": "Peru"
+    },
+    {
+      "id": "enwiki:Rongorongo",
+      "title": "Rongorongo",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Rongorongo",
+      "countryCode": "CL",
+      "countryName": "Chile"
+    },
+    {
+      "id": "enwiki:Crooked_Forest",
+      "title": "Crooked Forest",
+      "category": "strange",
+      "articleURL": "https://en.wikipedia.org/wiki/Crooked_Forest",
+      "countryCode": "PL",
+      "countryName": "Poland"
+    },
+    {
+      "id": "enwiki:Bible_John",
+      "title": "Bible John",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Bible_John",
+      "victimCount": 3,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1968"
+    },
+    {
+      "id": "enwiki:Hammersmith_nude_murders",
+      "title": "Hammersmith nude murders",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Hammersmith_nude_murders",
+      "victimCount": 6,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1964"
+    },
+    {
+      "id": "enwiki:Doodler",
+      "title": "Doodler",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Doodler",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1974"
+    },
+    {
+      "id": "enwiki:Servant_Girl_Annihilator",
+      "title": "Servant Girl Annihilator",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Servant_Girl_Annihilator",
+      "victimCount": 8,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1884"
+    },
+    {
+      "id": "enwiki:Texarkana_Moonlight_Murders",
+      "title": "Texarkana Moonlight Murders",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Texarkana_Moonlight_Murders",
+      "victimCount": 5,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1946-02-22"
+    },
+    {
+      "id": "enwiki:Frankford_Slasher",
+      "title": "Frankford Slasher",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Frankford_Slasher",
+      "victimCount": 9,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1985"
+    },
+    {
+      "id": "enwiki:Honolulu_Strangler",
+      "title": "Honolulu Strangler",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Honolulu_Strangler",
+      "victimCount": 5,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1985"
+    },
+    {
+      "id": "enwiki:New_Bedford_Highway_Killer",
+      "title": "New Bedford Highway Killer",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/New_Bedford_Highway_Killer",
+      "victimCount": 11,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1988"
+    },
+    {
+      "id": "enwiki:Colonial_Parkway_murders",
+      "title": "Colonial Parkway murders",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Colonial_Parkway_murders",
+      "victimCount": 8,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1986"
+    },
+    {
+      "id": "enwiki:West_Mesa_murders",
+      "title": "West Mesa murders",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/West_Mesa_murders",
+      "victimCount": 11,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2009"
+    },
+    {
+      "id": "enwiki:Atlanta_Ripper",
+      "title": "Atlanta Ripper",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Atlanta_Ripper",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1911"
+    },
+    {
+      "id": "enwiki:Boston_Strangler",
+      "title": "Boston Strangler",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Boston_Strangler",
+      "victimCount": 13,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1962-06-14"
+    },
+    {
+      "id": "enwiki:Brabant_killers",
+      "title": "Brabant killers",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Brabant_killers",
+      "victimCount": 28,
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "startDate": "1985"
+    },
+    {
+      "id": "enwiki:Eastbound_Strangler",
+      "title": "Eastbound Strangler",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Eastbound_Strangler",
+      "victimCount": 4,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2006-11-20"
+    },
+    {
+      "id": "enwiki:Paturis_Park_murders",
+      "title": "Paturis Park murders",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Paturis_Park_murders",
+      "victimCount": 13,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "startDate": "2008"
+    },
+    {
+      "id": "enwiki:Ivan_Milat",
+      "title": "Ivan Milat",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Ivan_Milat",
+      "victimCount": 7,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "2019-10-27"
+    },
+    {
+      "id": "enwiki:John_Wayne_Glover",
+      "title": "John Wayne Glover",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/John_Wayne_Glover",
+      "victimCount": 6,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "2005-09-09"
+    },
+    {
+      "id": "enwiki:Eric_Edgar_Cooke",
+      "title": "Eric Edgar Cooke",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Eric_Edgar_Cooke",
+      "victimCount": 8,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "1964-10-26"
+    },
+    {
+      "id": "enwiki:David_and_Catherine_Birnie",
+      "title": "David and Catherine Birnie",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/David_and_Catherine_Birnie",
+      "victimCount": 4,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "1986"
+    },
+    {
+      "id": "enwiki:William_MacDonald_(serial_killer)",
+      "title": "William MacDonald (serial killer)",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/William_MacDonald_(serial_killer)",
+      "victimCount": 5,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "2015-05-12"
+    },
+    {
+      "id": "enwiki:Leonard_Fraser",
+      "title": "Leonard Fraser",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Leonard_Fraser",
+      "victimCount": 4,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "2007"
+    },
+    {
+      "id": "enwiki:Peter_Dupas",
+      "title": "Peter Dupas",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Peter_Dupas",
+      "victimCount": 3,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "1953-07-06"
+    },
+    {
+      "id": "enwiki:Snowtown_murders",
+      "title": "Snowtown murders",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Snowtown_murders",
+      "victimCount": 11,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "1999"
+    },
+    {
+      "id": "enwiki:Paul_Denyer",
+      "title": "Paul Denyer",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Paul_Denyer",
+      "victimCount": 3,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "1972-04-14"
+    },
+    {
+      "id": "enwiki:Christopher_Wilder",
+      "title": "Christopher Wilder",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Christopher_Wilder",
+      "victimCount": 8,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "startDate": "1984-04-13"
+    },
+    {
+      "id": "enwiki:Alexander_Pichushkin",
+      "title": "Alexander Pichushkin",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Alexander_Pichushkin",
+      "victimCount": 48,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1974-04-09"
+    },
+    {
+      "id": "enwiki:Mikhail_Popkov",
+      "title": "Mikhail Popkov",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Mikhail_Popkov",
+      "victimCount": 78,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1964-03-07"
+    },
+    {
+      "id": "enwiki:Sergei_Ryakhovsky",
+      "title": "Sergei Ryakhovsky",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Sergei_Ryakhovsky",
+      "victimCount": 19,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "2005-01-21"
+    },
+    {
+      "id": "enwiki:Vasili_Komaroff",
+      "title": "Vasili Komaroff",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Vasili_Komaroff",
+      "victimCount": 33,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1923-06-18"
+    },
+    {
+      "id": "enwiki:Vladimir_Ionesyan",
+      "title": "Vladimir Ionesyan",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Vladimir_Ionesyan",
+      "victimCount": 5,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1964-01-31"
+    },
+    {
+      "id": "enwiki:Gennady_Mikhasevich",
+      "title": "Gennady Mikhasevich",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Gennady_Mikhasevich",
+      "victimCount": 36,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1987"
+    },
+    {
+      "id": "enwiki:Alexander_Spesivtsev",
+      "title": "Alexander Spesivtsev",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Alexander_Spesivtsev",
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1970-03-01"
+    },
+    {
+      "id": "enwiki:Irina_Gaidamachuk",
+      "title": "Irina Gaidamachuk",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Irina_Gaidamachuk",
+      "victimCount": 17,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1972-09-23"
+    },
+    {
+      "id": "enwiki:Tamara_Samsonova",
+      "title": "Tamara Samsonova",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Tamara_Samsonova",
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1947"
+    },
+    {
+      "id": "enwiki:Maxim_Petrov",
+      "title": "Maxim Petrov",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Maxim_Petrov",
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "startDate": "1965"
+    },
+    {
+      "id": "enwiki:Futoshi_Matsunaga",
+      "title": "Futoshi Matsunaga",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Futoshi_Matsunaga",
+      "victimCount": 7,
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "startDate": "1961-04-13"
+    },
+    {
+      "id": "enwiki:Yoshio_Kodaira",
+      "title": "Yoshio Kodaira",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Yoshio_Kodaira",
+      "victimCount": 7,
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "startDate": "1949-10-05"
+    },
+    {
+      "id": "enwiki:Hiroshi_Maeue",
+      "title": "Hiroshi Maeue",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Hiroshi_Maeue",
+      "victimCount": 3,
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "startDate": "2009-07-28"
+    },
+    {
+      "id": "enwiki:Robert_Pickton",
+      "title": "Robert Pickton",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Robert_Pickton",
+      "victimCount": 6,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "startDate": "2024-05-31"
+    },
+    {
+      "id": "enwiki:2010–2017_Toronto_serial_homicides",
+      "title": "2010–2017 Toronto serial homicides",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/2010%E2%80%932017_Toronto_serial_homicides",
+      "victimCount": 8,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "startDate": "2017"
+    },
+    {
+      "id": "enwiki:Cody_Legebokoff",
+      "title": "Cody Legebokoff",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Cody_Legebokoff",
+      "victimCount": 4,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "startDate": "1990-01-21"
+    },
+    {
+      "id": "enwiki:John_Martin_Crawford",
+      "title": "John Martin Crawford",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/John_Martin_Crawford",
+      "victimCount": 3,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "startDate": "1962"
+    },
+    {
+      "id": "enwiki:William_Patrick_Fyfe",
+      "title": "William Patrick Fyfe",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/William_Patrick_Fyfe",
+      "victimCount": 5,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "startDate": "1955"
+    },
+    {
+      "id": "enwiki:Las_Poquianchis",
+      "title": "Las Poquianchis",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Las_Poquianchis",
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "startDate": "1964"
+    },
+    {
+      "id": "enwiki:Gregorio_Cárdenas_Hernández",
+      "title": "Gregorio Cárdenas Hernández",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Gregorio_C%C3%A1rdenas_Hern%C3%A1ndez",
+      "victimCount": 4,
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "startDate": "1999"
+    },
+    {
+      "id": "enwiki:Francisco_Guerrero_Pérez",
+      "title": "Francisco Guerrero Pérez",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Francisco_Guerrero_P%C3%A9rez",
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "startDate": "1910"
+    },
+    {
+      "id": "enwiki:John_Haigh",
+      "title": "John Haigh",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/John_Haigh",
+      "victimCount": 6,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1949-08-10"
+    },
+    {
+      "id": "enwiki:John_Christie_(serial_killer)",
+      "title": "John Christie (serial killer)",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/John_Christie_(serial_killer)",
+      "victimCount": 8,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1953-07-15"
+    },
+    {
+      "id": "enwiki:Peter_Manuel",
+      "title": "Peter Manuel",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Peter_Manuel",
+      "victimCount": 7,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1958-07-11"
+    },
+    {
+      "id": "enwiki:Levi_Bellfield",
+      "title": "Levi Bellfield",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Levi_Bellfield",
+      "victimCount": 3,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1968-05-17"
+    },
+    {
+      "id": "enwiki:Donald_Neilson",
+      "title": "Donald Neilson",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Donald_Neilson",
+      "victimCount": 4,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "2011-12-18"
+    },
+    {
+      "id": "enwiki:Stephen_Port",
+      "title": "Stephen Port",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Stephen_Port",
+      "victimCount": 4,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "startDate": "1975-04-22"
+    },
+    {
+      "id": "enwiki:Cedric_Maake",
+      "title": "Cedric Maake",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Cedric_Maake",
+      "victimCount": 27,
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "startDate": "1965"
+    },
+    {
+      "id": "enwiki:Sipho_Thwala",
+      "title": "Sipho Thwala",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Sipho_Thwala",
+      "victimCount": 19,
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "startDate": "1968"
+    },
+    {
+      "id": "enwiki:Elifasi_Msomi",
+      "title": "Elifasi Msomi",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Elifasi_Msomi",
+      "victimCount": 15,
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "startDate": "1956-02-10"
+    },
+    {
+      "id": "enwiki:Henry_Lee_Lucas",
+      "title": "Henry Lee Lucas",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Henry_Lee_Lucas",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2001-03-12"
+    },
+    {
+      "id": "enwiki:Ángel_Maturino_Reséndiz",
+      "title": "Ángel Maturino Reséndiz",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/%C3%81ngel_Maturino_Res%C3%A9ndiz",
+      "victimCount": 15,
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "2006-06-27"
+    },
+    {
+      "id": "enwiki:Kenneth_McDuff",
+      "title": "Kenneth McDuff",
+      "category": "serialKiller",
+      "articleURL": "https://en.wikipedia.org/wiki/Kenneth_McDuff",
+      "countryCode": "US",
+      "countryName": "United States",
+      "startDate": "1998-11-17"
+    }
+  ]
+}
