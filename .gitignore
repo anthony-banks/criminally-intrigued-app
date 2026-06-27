@@ -16,6 +16,9 @@ DerivedData/
 .build/
 .swiftpm/
 
+# Claude Code local settings (machine-specific permissions, not for the repo)
+.claude/settings.local.json
+
 # CocoaPods / Carthage (not used, but safe defaults)
 Pods/
 Carthage/Build/
