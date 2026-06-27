@@ -91,10 +91,25 @@ struct WikiSummary: Decodable {
         var desktop: Desktop
     }
     var title: String
+    /// REST page type: "standard", "disambiguation", "no-extract", etc.
+    var type: String?
     var extract: String?
     var description: String?
     var thumbnail: Thumbnail?
     var content_urls: ContentURLs?
+
+    /// Minimum extract length to count as a real description (mirrors
+    /// `Scripts/validate_catalog.py`). Title-only / disambiguation / no-extract
+    /// pages fall below this and should be weeded out or hidden.
+    static let minExtractLength = 20
+
+    /// Whether this summary carries enough real content to show as a card with
+    /// a description, rather than a bare title.
+    var isUsable: Bool {
+        if let type, type == "disambiguation" || type == "no-extract" { return false }
+        let text = (extract ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
+        return text.count >= Self.minExtractLength
+    }
 }
 
 // MARK: - Wikipedia Action API extract + category members

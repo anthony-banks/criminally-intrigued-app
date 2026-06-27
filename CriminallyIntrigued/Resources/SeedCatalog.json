@@ -134,7 +134,7 @@
     },
     {
       "id": "enwiki:Chicago_Tylenol_murders",
-      "title": "Chicago Tylenol Murders",
+      "title": "Chicago Tylenol murders",
       "category": "coldCase",
       "articleURL": "https://en.wikipedia.org/wiki/Chicago_Tylenol_murders",
       "victimCount": 7,
@@ -144,7 +144,7 @@
     },
     {
       "id": "enwiki:Hinterkaifeck_murders",
-      "title": "Hinterkaifeck Murders",
+      "title": "Hinterkaifeck murders",
       "category": "coldCase",
       "articleURL": "https://en.wikipedia.org/wiki/Hinterkaifeck_murders",
       "victimCount": 6,
@@ -182,7 +182,7 @@
     },
     {
       "id": "enwiki:Tamam_Shud_case",
-      "title": "Tamam Shud Case",
+      "title": "Tamam Shud case",
       "category": "strange",
       "articleURL": "https://en.wikipedia.org/wiki/Tamam_Shud_case",
       "victimCount": 1,
@@ -201,7 +201,7 @@
     },
     {
       "id": "enwiki:Max_Headroom_signal_hijacking",
-      "title": "Max Headroom Signal Hijacking",
+      "title": "Max Headroom signal hijacking",
       "category": "strange",
       "articleURL": "https://en.wikipedia.org/wiki/Max_Headroom_signal_hijacking",
       "countryCode": "US",
@@ -469,10 +469,10 @@
       "startDate": "1945-12-24"
     },
     {
-      "id": "enwiki:Long_Island_serial_killer",
-      "title": "Long Island serial killer",
+      "id": "enwiki:Gilgo_Beach_serial_killings",
+      "title": "Gilgo Beach serial killings",
       "category": "coldCase",
-      "articleURL": "https://en.wikipedia.org/wiki/Long_Island_serial_killer",
+      "articleURL": "https://en.wikipedia.org/wiki/Gilgo_Beach_serial_killings",
       "countryCode": "US",
       "countryName": "United States",
       "startDate": "2010-12-11"
