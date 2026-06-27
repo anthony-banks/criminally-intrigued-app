@@ -37,6 +37,7 @@ except ImportError:
     SSL_CONTEXT = ssl.create_default_context()
 
 REST_SUMMARY = "https://en.wikipedia.org/api/rest_v1/page/summary/"
+ACTION_API = "https://en.wikipedia.org/w/api.php"
 # Keep in sync with AppConfig.wikimediaUserAgent.
 USER_AGENT = "CriminallyIntrigued/1.0 (https://anthony-banks.github.io/criminally-intrigued/; criminallyintriguedsupport@gmail.com)"
 MIN_EXTRACT_CHARS = 20          # keep in sync with WikiSummary.isUsable
@@ -52,6 +53,7 @@ DISAMBIGUATION = "disambiguation"
 EMPTY = "empty"               # page exists but no extract at all
 THIN = "thin"                # extract present but shorter than threshold
 NETWORK = "network"          # could not reach the API (not the data's fault)
+BODY = "body"                # card OK but the full-article body fetch fails
 
 
 def fetch_summary(title):
@@ -84,6 +86,38 @@ def fetch_summary(title):
     return None, None
 
 
+def fetch_body_ok(title):
+    """Check the Action API plain-text extract — the full article the app loads
+    when you open an entry (WikipediaService.extract). Returns (ok, length).
+    ok is None on a network failure so callers can tell it apart from a real
+    empty body."""
+    params = urllib.parse.urlencode({
+        "action": "query", "prop": "extracts", "explaintext": "1",
+        "exsectionformat": "plain", "redirects": "1", "titles": title,
+        "format": "json", "formatversion": "2",
+    })
+    req = urllib.request.Request(f"{ACTION_API}?{params}", headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+    backoff = 1.0
+    for attempt in range(MAX_RETRIES):
+        try:
+            with urllib.request.urlopen(req, timeout=20, context=SSL_CONTEXT) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            pages = data.get("query", {}).get("pages", [])
+            if not pages or pages[0].get("missing"):
+                return False, 0
+            extract = (pages[0].get("extract") or "").strip()
+            return (len(extract) > 0), len(extract)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503) and attempt < MAX_RETRIES - 1:
+                time.sleep(backoff); backoff *= 2; continue
+            return None, 0
+        except (urllib.error.URLError, TimeoutError):
+            if attempt < MAX_RETRIES - 1:
+                time.sleep(backoff); backoff *= 2; continue
+            return None, 0
+    return None, 0
+
+
 def classify(status, payload):
     """Map an API response to a result bucket + the extract length."""
     if status is None:
@@ -106,6 +140,8 @@ def main():
     parser.add_argument("seed", nargs="?", default=str(DEFAULT_SEED), help="Path to SeedCatalog.json")
     parser.add_argument("--limit", type=int, default=0, help="Only check the first N entries (0 = all)")
     parser.add_argument("--json", dest="json_out", help="Write a machine-readable report to this path")
+    parser.add_argument("--skip-body", action="store_true",
+                        help="Only check the card summary, not the full-article body (faster)")
     args = parser.parse_args()
 
     seed_path = Path(args.seed)
@@ -120,7 +156,7 @@ def main():
     total = len(entries)
     print(f"Checking {total} entries against Wikipedia...\n")
 
-    flagged = {MISSING: [], DISAMBIGUATION: [], EMPTY: [], THIN: []}
+    flagged = {MISSING: [], DISAMBIGUATION: [], EMPTY: [], THIN: [], BODY: []}
     network_errors = []
     ok_count = 0
     report = []
@@ -129,7 +165,20 @@ def main():
         title = entry["title"]
         status, payload = fetch_summary(title)
         bucket, length = classify(status, payload)
-        report.append({"id": entry["id"], "title": title, "result": bucket, "extract_chars": length})
+
+        # If the card resolves, also verify the full article opens (the body
+        # fetch the app does on tap). A card can pass while the body fails.
+        body_len = None
+        if bucket == OK and not args.skip_body:
+            time.sleep(REQUEST_PAUSE)
+            body_ok, body_len = fetch_body_ok(title)
+            if body_ok is None:
+                bucket = NETWORK            # couldn't reach it; not a data fault
+            elif not body_ok:
+                bucket = BODY
+
+        report.append({"id": entry["id"], "title": title, "result": bucket,
+                       "summary_chars": length, "body_chars": body_len})
 
         if bucket == OK:
             ok_count += 1
@@ -139,7 +188,8 @@ def main():
         else:
             flagged[bucket].append(title)
             label = {MISSING: "❌ no page / 404", DISAMBIGUATION: "❌ disambiguation",
-                     EMPTY: "❌ title-only (no description)", THIN: f"⚠️  thin ({length} chars)"}[bucket]
+                     EMPTY: "❌ title-only (no description)", THIN: f"⚠️  thin ({length} chars)",
+                     BODY: "❌ article body won't load"}[bucket]
             print(f"  [{i:>3}/{total}] {label:<32} {title}")
 
         time.sleep(REQUEST_PAUSE)
@@ -150,6 +200,7 @@ def main():
     print(f"  ❌ disambiguation:  {len(flagged[DISAMBIGUATION])}")
     print(f"  ❌ title-only:      {len(flagged[EMPTY])}")
     print(f"  ⚠️  thin:            {len(flagged[THIN])}")
+    print(f"  ❌ body won't load: {len(flagged[BODY])}")
     if network_errors:
         print(f"  ⚠️  unreachable:     {len(network_errors)} (re-run; not a data problem)")
     print("=" * 56)
